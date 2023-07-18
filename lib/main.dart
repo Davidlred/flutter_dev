@@ -30,14 +30,21 @@ class myApp extends StatelessWidget {
                     style: TextStyle(fontSize: 45, fontWeight: FontWeight.w500, height: 1.5),
                     ),
                   ),
-                   Center(
-                    child: Container(
-                      padding:EdgeInsets.all(30.0),
-                      child: const Text('Congrats on your purchase, you will be notified when your orders arrives.',
-                      style: TextStyle(fontSize: 20)
-                      ) ,
-                    )
-                  )
+                   const Center(
+                      child: Text('Congrats on your purchase, you will',
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400)
+                      ),
+                  ),
+                  const Center(
+                    child: Text('be notified when your orders',
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400)
+                    ),
+                  ),
+                  const Center(
+                    child: Text('arrives.',
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400)
+                    ),
+                  ),
                 ],
               ),
         ),
