@@ -41,7 +41,7 @@ class myApp extends StatelessWidget {
                     ),
                   ),
                   const Center(
-                    child: Text('arrives.',
+                    child: Text('arrive.',
                         style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400)
                     ),
                   ),
@@ -53,7 +53,7 @@ class myApp extends StatelessWidget {
                     child:  const ElevatedButton(
                       onPressed: null,
                       style: ButtonStyle(
-                          padding: MaterialStatePropertyAll(EdgeInsets.symmetric(horizontal: 100.0, vertical: 15.0)),
+                          padding: MaterialStatePropertyAll(EdgeInsets.symmetric(horizontal: 120.0, vertical: 15.0)),
                         backgroundColor: MaterialStatePropertyAll(Colors.green,)
                       ),
                       child: Text('Back to Home',
