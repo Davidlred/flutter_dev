@@ -45,6 +45,22 @@ class myApp extends StatelessWidget {
                         style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400)
                     ),
                   ),
+                 const SizedBox(
+                    height: 50
+                  ),
+                  Container(
+                    //padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+                    child:  const ElevatedButton(
+                      onPressed: null,
+                      style: ButtonStyle(
+                          padding: MaterialStatePropertyAll(EdgeInsets.symmetric(horizontal: 100.0, vertical: 15.0)),
+                        backgroundColor: MaterialStatePropertyAll(Colors.green,)
+                      ),
+                      child: Text('Back to Home',
+                      style: TextStyle(fontSize: 20, color: Colors.white))
+                    )
+                  )
+
                 ],
               ),
         ),
